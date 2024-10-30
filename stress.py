@@ -99,7 +99,7 @@ def main():
             elif choice in stress_tests:
                 stress_tests[choice]()
             else:
-                print("Invalid choice. Please select a valid option.")
+                print("Invalid choice")
 
             time.sleep(30)
 
