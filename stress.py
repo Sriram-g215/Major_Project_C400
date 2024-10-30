@@ -87,7 +87,7 @@ def main():
             choice = int(input("Enter your choice: "))
 
             if choice == 0:
-                print("Exiting...")
+                print("Exiting!!!!!!!!!")
                 break
             elif choice == 6:
                 threads = [threading.Thread(target=test) for test in stress_tests.values()]
